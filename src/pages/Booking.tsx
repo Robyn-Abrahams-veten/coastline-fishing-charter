@@ -34,7 +34,7 @@ export default function Booking() {
   const handleWhatsAppBooking = () => {
     const dateStr = selectedDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
     const message = `Hi, I'm interested in booking the ${currentPackage.name} for ${adults + children} guests on ${dateStr}.`;
-    window.open(`https://wa.me/27828824594?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/27645297120?text=${encodeURIComponent(message)}`, '_blank');
   };
 
 
